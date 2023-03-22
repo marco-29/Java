@@ -1,0 +1,1 @@
+import javax.swing.*;public class Frame extends JFrame{ public Frame(){   setLayout(null); }   public static void main(String args[]){   Frame formulario1 = new Frame();   formulario1.setBounds(0, 0, 400, 550);   formulario1.setVisible(true);   formulario1.setLocationRelativeTo(null);   formulario1.setResizable(false); }}

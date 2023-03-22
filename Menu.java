@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Menu{
+  public static void main(String args[]){
+ 
+   Scanner morita = new Scanner(System.in);
+   int opc = 0;
+
+   do{
+   System.out.println("BIENVENIDO A PANECITO");
+   System.out.println("MENU: ");
+   System.out.println("1. Pizza grande.......... $150.00 ");
+   System.out.println("2. Hojaldra grande.......... $70.00 ");
+   System.out.println("3. pai grande.......... $150.00 ");
+   System.out.println("5. roles (12 piezas).......... $60.00 \n");
+   System.out.print("por favor elija su pedido: ");
+   opc = morita.nextInt();
+
+   System.out.println("GRACIAS POR SU COMPRA");
+   }while(opc >= 1 && opc <= 5);
+   
+ }
+}

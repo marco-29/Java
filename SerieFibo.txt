@@ -1,0 +1,17 @@
+public class SerieFibo{
+  public static void main{
+ 
+   int x = 1;
+   int z = 1;
+   int y = 0;
+   
+   System.out.print("0, 1, 1, ");
+
+   for(int i = 1; i <= 7; i++){
+     y = x + z;
+     x = y;
+     z = x;
+     System.out.print(y + ", ");
+   }
+ }
+}
